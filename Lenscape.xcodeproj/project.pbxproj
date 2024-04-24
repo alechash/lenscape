@@ -7,20 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D36805C2BD71BF900402FEB /* ChapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D36805B2BD71BF900402FEB /* ChapterView.swift */; };
+		6D36805E2BD74EDF00402FEB /* InlineTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D36805D2BD74EDF00402FEB /* InlineTools.swift */; };
 		6DD6E8112BC4985300F708AE /* LenscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6E8102BC4985300F708AE /* LenscapeApp.swift */; };
-		6DD6E8132BC4985300F708AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6E8122BC4985300F708AE /* ContentView.swift */; };
-		6DD6E8152BC4985300F708AE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6E8142BC4985300F708AE /* Item.swift */; };
-		6DD6E8172BC4985600F708AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD6E8162BC4985600F708AE /* Assets.xcassets */; };
-		6DD6E81A2BC4985600F708AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD6E8192BC4985600F708AE /* Preview Assets.xcassets */; };
+		6DF2BC3E2BD5DA8200EC7D35 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC232BD5DA8100EC7D35 /* About.swift */; };
+		6DF2BC3F2BD5DA8200EC7D35 /* HomeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC242BD5DA8100EC7D35 /* HomeDetail.swift */; };
+		6DF2BC402BD5DA8200EC7D35 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC252BD5DA8100EC7D35 /* HomeView.swift */; };
+		6DF2BC412BD5DA8200EC7D35 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC262BD5DA8100EC7D35 /* LearnView.swift */; };
+		6DF2BC422BD5DA8200EC7D35 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC272BD5DA8100EC7D35 /* Settings.swift */; };
+		6DF2BC442BD5DA8200EC7D35 /* timezones.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2BC2A2BD5DA8100EC7D35 /* timezones.json */; };
+		6DF2BC452BD5DA8200EC7D35 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC2B2BD5DA8200EC7D35 /* Article.swift */; };
+		6DF2BC462BD5DA8200EC7D35 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC2C2BD5DA8200EC7D35 /* CameraPreview.swift */; };
+		6DF2BC472BD5DA8200EC7D35 /* GoldenHourCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC2D2BD5DA8200EC7D35 /* GoldenHourCalculator.swift */; };
+		6DF2BC482BD5DA8200EC7D35 /* LightProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC2E2BD5DA8200EC7D35 /* LightProcessing.swift */; };
+		6DF2BC492BD5DA8200EC7D35 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC2F2BD5DA8200EC7D35 /* LocationManager.swift */; };
+		6DF2BC4A2BD5DA8200EC7D35 /* SensorSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC302BD5DA8200EC7D35 /* SensorSize.swift */; };
+		6DF2BC4B2BD5DA8200EC7D35 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC312BD5DA8200EC7D35 /* SliderView.swift */; };
+		6DF2BC4D2BD5DA8200EC7D35 /* ExposureTriangleSimulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC342BD5DA8200EC7D35 /* ExposureTriangleSimulatorView.swift */; };
+		6DF2BC4E2BD5DA8200EC7D35 /* GoldenHourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC352BD5DA8200EC7D35 /* GoldenHourView.swift */; };
+		6DF2BC4F2BD5DA8200EC7D35 /* LightMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC362BD5DA8200EC7D35 /* LightMeterView.swift */; };
+		6DF2BC512BD5DA8200EC7D35 /* LightMeterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC392BD5DA8200EC7D35 /* LightMeterViewModel.swift */; };
+		6DF2BC542BD5DAFA00EC7D35 /* DepthOfFieldCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC522BD5DAFA00EC7D35 /* DepthOfFieldCalculatorView.swift */; };
+		6DF2BC5B2BD5DB4200EC7D35 /* TimeZoneLocate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC582BD5DB4200EC7D35 /* TimeZoneLocate.swift */; };
+		6DF2BC5F2BD5DC4E00EC7D35 /* SunKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6DF2BC5E2BD5DC4E00EC7D35 /* SunKit */; };
+		6DF2BC622BD5DC6200EC7D35 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6DF2BC612BD5DC6200EC7D35 /* ConfettiSwiftUI */; };
+		6DF2BC652BD5DC7C00EC7D35 /* Solar in Frameworks */ = {isa = PBXBuildFile; productRef = 6DF2BC642BD5DC7C00EC7D35 /* Solar */; };
+		6DF2BC672BD5DD0700EC7D35 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2BC662BD5DD0700EC7D35 /* Tutorial.swift */; };
+		6DF2BC692BD5DE8700EC7D35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2BC682BD5DE8700EC7D35 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D36805B2BD71BF900402FEB /* ChapterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterView.swift; sourceTree = "<group>"; };
+		6D36805D2BD74EDF00402FEB /* InlineTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineTools.swift; sourceTree = "<group>"; };
 		6DD6E80D2BC4985300F708AE /* Lenscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lenscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD6E8102BC4985300F708AE /* LenscapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenscapeApp.swift; sourceTree = "<group>"; };
-		6DD6E8122BC4985300F708AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6DD6E8142BC4985300F708AE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		6DD6E8162BC4985600F708AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6DD6E8192BC4985600F708AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DF2BC232BD5DA8100EC7D35 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		6DF2BC242BD5DA8100EC7D35 /* HomeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDetail.swift; sourceTree = "<group>"; };
+		6DF2BC252BD5DA8100EC7D35 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6DF2BC262BD5DA8100EC7D35 /* LearnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		6DF2BC272BD5DA8100EC7D35 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		6DF2BC292BD5DA8100EC7D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DF2BC2A2BD5DA8100EC7D35 /* timezones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timezones.json; sourceTree = "<group>"; };
+		6DF2BC2B2BD5DA8200EC7D35 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		6DF2BC2C2BD5DA8200EC7D35 /* CameraPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		6DF2BC2D2BD5DA8200EC7D35 /* GoldenHourCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldenHourCalculator.swift; sourceTree = "<group>"; };
+		6DF2BC2E2BD5DA8200EC7D35 /* LightProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightProcessing.swift; sourceTree = "<group>"; };
+		6DF2BC2F2BD5DA8200EC7D35 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6DF2BC302BD5DA8200EC7D35 /* SensorSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorSize.swift; sourceTree = "<group>"; };
+		6DF2BC312BD5DA8200EC7D35 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		6DF2BC342BD5DA8200EC7D35 /* ExposureTriangleSimulatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExposureTriangleSimulatorView.swift; sourceTree = "<group>"; };
+		6DF2BC352BD5DA8200EC7D35 /* GoldenHourView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldenHourView.swift; sourceTree = "<group>"; };
+		6DF2BC362BD5DA8200EC7D35 /* LightMeterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightMeterView.swift; sourceTree = "<group>"; };
+		6DF2BC392BD5DA8200EC7D35 /* LightMeterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightMeterViewModel.swift; sourceTree = "<group>"; };
+		6DF2BC522BD5DAFA00EC7D35 /* DepthOfFieldCalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthOfFieldCalculatorView.swift; sourceTree = "<group>"; };
+		6DF2BC582BD5DB4200EC7D35 /* TimeZoneLocate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeZoneLocate.swift; path = ../TimeZoneLocate.swift; sourceTree = "<group>"; };
+		6DF2BC662BD5DD0700EC7D35 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		6DF2BC682BD5DE8700EC7D35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF2BC652BD5DC7C00EC7D35 /* Solar in Frameworks */,
+				6DF2BC622BD5DC6200EC7D35 /* ConfettiSwiftUI in Frameworks */,
+				6DF2BC5F2BD5DC4E00EC7D35 /* SunKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +99,70 @@
 			isa = PBXGroup;
 			children = (
 				6DD6E8102BC4985300F708AE /* LenscapeApp.swift */,
-				6DD6E8122BC4985300F708AE /* ContentView.swift */,
-				6DD6E8142BC4985300F708AE /* Item.swift */,
-				6DD6E8162BC4985600F708AE /* Assets.xcassets */,
-				6DD6E8182BC4985600F708AE /* Preview Content */,
+				6DF2BC2A2BD5DA8100EC7D35 /* timezones.json */,
+				6DF2BC282BD5DA8100EC7D35 /* Pages */,
+				6DF2BC5C2BD5DB7500EC7D35 /* Calculators */,
+				6DF2BC372BD5DA8200EC7D35 /* Tools */,
+				6DF2BC332BD5DA8200EC7D35 /* Helpers */,
+				6DF2BC292BD5DA8100EC7D35 /* Assets.xcassets */,
+				6DF2BC6B2BD5DEC200EC7D35 /* Preview Content */,
 			);
 			path = Lenscape;
 			sourceTree = "<group>";
 		};
-		6DD6E8182BC4985600F708AE /* Preview Content */ = {
+		6DF2BC282BD5DA8100EC7D35 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				6DD6E8192BC4985600F708AE /* Preview Assets.xcassets */,
+				6DF2BC232BD5DA8100EC7D35 /* About.swift */,
+				6DF2BC242BD5DA8100EC7D35 /* HomeDetail.swift */,
+				6DF2BC252BD5DA8100EC7D35 /* HomeView.swift */,
+				6DF2BC262BD5DA8100EC7D35 /* LearnView.swift */,
+				6D36805B2BD71BF900402FEB /* ChapterView.swift */,
+				6DF2BC662BD5DD0700EC7D35 /* Tutorial.swift */,
+				6DF2BC272BD5DA8100EC7D35 /* Settings.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		6DF2BC332BD5DA8200EC7D35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6DF2BC582BD5DB4200EC7D35 /* TimeZoneLocate.swift */,
+				6DF2BC392BD5DA8200EC7D35 /* LightMeterViewModel.swift */,
+				6DF2BC2B2BD5DA8200EC7D35 /* Article.swift */,
+				6D36805D2BD74EDF00402FEB /* InlineTools.swift */,
+				6DF2BC2C2BD5DA8200EC7D35 /* CameraPreview.swift */,
+				6DF2BC2D2BD5DA8200EC7D35 /* GoldenHourCalculator.swift */,
+				6DF2BC2E2BD5DA8200EC7D35 /* LightProcessing.swift */,
+				6DF2BC2F2BD5DA8200EC7D35 /* LocationManager.swift */,
+				6DF2BC302BD5DA8200EC7D35 /* SensorSize.swift */,
+				6DF2BC312BD5DA8200EC7D35 /* SliderView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6DF2BC372BD5DA8200EC7D35 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6DF2BC342BD5DA8200EC7D35 /* ExposureTriangleSimulatorView.swift */,
+				6DF2BC352BD5DA8200EC7D35 /* GoldenHourView.swift */,
+				6DF2BC362BD5DA8200EC7D35 /* LightMeterView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6DF2BC5C2BD5DB7500EC7D35 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				6DF2BC522BD5DAFA00EC7D35 /* DepthOfFieldCalculatorView.swift */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		6DF2BC6B2BD5DEC200EC7D35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DF2BC682BD5DE8700EC7D35 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -86,6 +183,11 @@
 			dependencies = (
 			);
 			name = Lenscape;
+			packageProductDependencies = (
+				6DF2BC5E2BD5DC4E00EC7D35 /* SunKit */,
+				6DF2BC612BD5DC6200EC7D35 /* ConfettiSwiftUI */,
+				6DF2BC642BD5DC7C00EC7D35 /* Solar */,
+			);
 			productName = Lenscape;
 			productReference = 6DD6E80D2BC4985300F708AE /* Lenscape.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +216,11 @@
 				Base,
 			);
 			mainGroup = 6DD6E8042BC4985300F708AE;
+			packageReferences = (
+				6DF2BC5D2BD5DC4E00EC7D35 /* XCRemoteSwiftPackageReference "SunKit" */,
+				6DF2BC602BD5DC6200EC7D35 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				6DF2BC632BD5DC7C00EC7D35 /* XCRemoteSwiftPackageReference "Solar" */,
+			);
 			productRefGroup = 6DD6E80E2BC4985300F708AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,8 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD6E81A2BC4985600F708AE /* Preview Assets.xcassets in Resources */,
-				6DD6E8172BC4985600F708AE /* Assets.xcassets in Resources */,
+				6DF2BC692BD5DE8700EC7D35 /* Preview Assets.xcassets in Resources */,
+				6DF2BC442BD5DA8200EC7D35 /* timezones.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +247,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD6E8132BC4985300F708AE /* ContentView.swift in Sources */,
-				6DD6E8152BC4985300F708AE /* Item.swift in Sources */,
+				6DF2BC4E2BD5DA8200EC7D35 /* GoldenHourView.swift in Sources */,
+				6DF2BC512BD5DA8200EC7D35 /* LightMeterViewModel.swift in Sources */,
+				6D36805C2BD71BF900402FEB /* ChapterView.swift in Sources */,
+				6DF2BC3F2BD5DA8200EC7D35 /* HomeDetail.swift in Sources */,
 				6DD6E8112BC4985300F708AE /* LenscapeApp.swift in Sources */,
+				6DF2BC422BD5DA8200EC7D35 /* Settings.swift in Sources */,
+				6DF2BC4F2BD5DA8200EC7D35 /* LightMeterView.swift in Sources */,
+				6DF2BC4D2BD5DA8200EC7D35 /* ExposureTriangleSimulatorView.swift in Sources */,
+				6DF2BC4B2BD5DA8200EC7D35 /* SliderView.swift in Sources */,
+				6DF2BC3E2BD5DA8200EC7D35 /* About.swift in Sources */,
+				6DF2BC672BD5DD0700EC7D35 /* Tutorial.swift in Sources */,
+				6DF2BC462BD5DA8200EC7D35 /* CameraPreview.swift in Sources */,
+				6DF2BC402BD5DA8200EC7D35 /* HomeView.swift in Sources */,
+				6DF2BC412BD5DA8200EC7D35 /* LearnView.swift in Sources */,
+				6DF2BC542BD5DAFA00EC7D35 /* DepthOfFieldCalculatorView.swift in Sources */,
+				6DF2BC482BD5DA8200EC7D35 /* LightProcessing.swift in Sources */,
+				6D36805E2BD74EDF00402FEB /* InlineTools.swift in Sources */,
+				6DF2BC4A2BD5DA8200EC7D35 /* SensorSize.swift in Sources */,
+				6DF2BC5B2BD5DB4200EC7D35 /* TimeZoneLocate.swift in Sources */,
+				6DF2BC472BD5DA8200EC7D35 /* GoldenHourCalculator.swift in Sources */,
+				6DF2BC492BD5DA8200EC7D35 /* LocationManager.swift in Sources */,
+				6DF2BC452BD5DA8200EC7D35 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +405,8 @@
 				DEVELOPMENT_TEAM = P55FXT826T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Tools such as the light meter use the camera to suggest manual settings on your camera.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need this to determine your blue and golden hours based on your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +436,8 @@
 				DEVELOPMENT_TEAM = P55FXT826T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Tools such as the light meter use the camera to suggest manual settings on your camera.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need this to determine your blue and golden hours based on your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,6 +478,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DF2BC5D2BD5DC4E00EC7D35 /* XCRemoteSwiftPackageReference "SunKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sunlitt/SunKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.0;
+			};
+		};
+		6DF2BC602BD5DC6200EC7D35 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		6DF2BC632BD5DC7C00EC7D35 /* XCRemoteSwiftPackageReference "Solar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ceeK/Solar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DF2BC5E2BD5DC4E00EC7D35 /* SunKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DF2BC5D2BD5DC4E00EC7D35 /* XCRemoteSwiftPackageReference "SunKit" */;
+			productName = SunKit;
+		};
+		6DF2BC612BD5DC6200EC7D35 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DF2BC602BD5DC6200EC7D35 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+		6DF2BC642BD5DC7C00EC7D35 /* Solar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DF2BC632BD5DC7C00EC7D35 /* XCRemoteSwiftPackageReference "Solar" */;
+			productName = Solar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6DD6E8052BC4985300F708AE /* Project object */;
 }

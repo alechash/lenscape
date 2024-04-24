@@ -11,9 +11,7 @@ import SwiftData
 @main
 struct LenscapeApp: App {
     var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
+        let schema = Schema([])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {
@@ -22,11 +20,30 @@ struct LenscapeApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                HomeView()
+                    .tabItem {
+                        Label("Lenscape", systemImage: "camera.aperture")
+                    }
+                
+                LearnView()
+                    .tabItem {
+                        Label("Lenschool", systemImage: "graduationcap")
+                    }
+            }
         }
         .modelContainer(sharedModelContainer)
+    }
+}
+
+extension Text {
+    func headerStyle() -> some View {
+        self
+            .textCase(.none)
+            .font(.headline)
+            .bold()
     }
 }
