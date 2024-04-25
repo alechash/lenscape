@@ -33,7 +33,7 @@ enum ContentType {
 }
 
 struct LearnView: View {
-    var exmapleCourse = Course(title: "Basics of Photography: Understanding Exposure", caption: "Learn about how to create new courses and read them!", image: "https://images.unsplash.com/photo-1516724562728-afc824a36e84?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", tags: ["tutorial", "course", "read the course"], chapters: [
+    var photographyBasicsCourse = Course(title: "Basics of Photography: Understanding Exposure", caption: "Learn about how to create new courses and read them!", image: "https://images.unsplash.com/photo-1516724562728-afc824a36e84?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", tags: ["tutorial", "course", "read the course"], chapters: [
         Chapter(title: "Introduction", content: [
             ChapterSection(type: .paragraph, content: ["Photography is an art form that blends creativity with technical skills. One of the fundamental technical aspects of photography is understanding exposure. Exposure determines how light or dark an image will appear when it's captured by your camera. The three main components that affect exposure are aperture, shutter speed, and ISO. In this tutorial, we will explore each of these elements and how they interact to affect the overall exposure of a photograph."]),
         ]),
@@ -188,6 +188,267 @@ struct LearnView: View {
         ]
     )
     
+    let landscapePhotographyCourse = Course(
+        title: "Landscape Photography Techniques",
+        caption: "Explore techniques for capturing stunning landscapes, including composition and timing.",
+        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tags: ["Landscape Photography", "Composition", "Timing", "Techniques", "Nature"],
+        chapters: [
+            Chapter(
+                title: "Introduction to Landscape Photography",
+                content: [
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Landscape photography captures the breathtaking beauty of nature and the world around us. From majestic mountains to tranquil lakes, it’s about conveying the essence of a location. This course will guide you through various techniques to enhance your landscape photos, focusing on composition, timing, and the use of natural light."
+                        ]
+                    )
+                ]
+            ),
+            Chapter(
+                title: "1. Mastering Composition",
+                content: [
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Understanding the Rule of Thirds"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Effective composition is crucial in landscape photography. The Rule of Thirds involves dividing the frame into nine equal segments with two horizontal and two vertical lines. Placing points of interest along these lines or their intersections can create a more balanced and engaging photo."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Using Leading Lines"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Leading lines guide the viewer’s eye through the photograph. These can be roads, rivers, or even patterns in the landscape. Using leading lines can add depth to your images and draw attention to focal points."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .header2,
+                        content: ["The Importance of Foreground Interest"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Incorporating elements in the foreground can greatly enhance the depth and interest of a landscape photo. Objects like rocks, plants, or even interesting terrain can draw the viewer's eye into the scene and give a sense of scale."
+                        ]
+                    )
+                ]
+            ),
+            Chapter(
+                title: "2. The Best Timing for Landscape Photography",
+                content: [
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Golden Hour"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "The time of day greatly affects the quality and mood of landscape photographs. The Golden Hour—shortly after sunrise or before sunset—offers soft, warm lighting that enhances textures and colors."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Blue Hour"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "The Blue Hour, just before sunrise or after sunset, provides a cooler tone that is ideal for capturing serene, moody scenes."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Weather and Seasonal Impact"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Weather conditions and seasons greatly influence the landscape. Understanding how to use these elements to your advantage can transform a simple scene into a compelling photograph."
+                        ]
+                    )
+                ]
+            ),
+            Chapter(
+                title: "3. Advanced Techniques in Landscape Photography",
+                content: [
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Long Exposure"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Long exposure techniques allow photographers to create surreal effects, particularly with moving elements like water or clouds."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .header2,
+                        content: ["HDR Photography"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "HDR (High Dynamic Range) photography involves combining multiple exposures of the same scene to handle challenging lighting conditions effectively."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Panoramic Shots"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Panoramic shots are perfect for capturing the vastness of landscapes. They require stitching together multiple images to create a wide, sweeping view."
+                        ]
+                    )
+                ]
+            ),
+            Chapter(
+                title: "Conclusion and Checklist",
+                content: [
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Landscape photography is as much about planning and preparation as it is about creativity and vision. Utilizing the techniques discussed will allow you to capture stunning landscapes that evoke emotion and tell a story."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .list,
+                        content: [
+                            "Practice with different composition rules to see what enhances your landscape photos the most.",
+                            "Make timing a priority and plan your shoots according to the natural light available.",
+                            "Experiment with advanced techniques like long exposures and HDR to overcome common challenges in landscape photography.",
+                            "Always have a checklist for your photography gear and settings before heading out."
+                        ]
+                    )
+                ]
+            )
+        ]
+    )
+    
+    let macroPhotographyCourse = Course(
+        title: "Macro Photography: Small World, Big Details",
+        caption: "A guide to getting close-up shots that reveal details unseen by the naked eye.",
+        image: "https://images.unsplash.com/photo-1533467915241-eac02e856653?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tags: ["Macro Photography", "Close-Up", "Details", "Techniques"],
+        chapters: [
+            Chapter(
+                title: "Introduction to Macro Photography",
+                content: [
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Macro photography opens up a new world of exploration for photographers. It involves taking extremely close-up pictures of small subjects, revealing details that are usually invisible to the naked eye. This course will guide you through the essential techniques and equipment needed to start capturing the fascinating details of the macro world."
+                        ]
+                    )
+                ]
+            ),
+            Chapter(
+                title: "1. Understanding Macro Photography Equipment",
+                content: [
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Choosing the Right Camera and Lens"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "To achieve true macro photography, you'll need specific equipment. A dedicated macro lens is the most important tool as it allows you to focus at very close distances with high magnification ratios. Alternatively, extension tubes or close-up filters can be used with standard lenses to achieve similar effects without the expense of a macro lens."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Lighting for Macro Photography"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Proper lighting is crucial in macro photography. Natural light can be used effectively, but for more control, many photographers use ring flashes or LED lights attached to the camera or the lens to ensure the subject is evenly lit without harsh shadows."
+                        ]
+                    )
+                ]
+            ),
+            Chapter(
+                title: "2. Composition and Focusing Techniques",
+                content: [
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Composition Tips for Macro Photography"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "In macro photography, composition is key. Because you're working with such small subjects, the slightest change in angle or frame can dramatically alter the appearance of your photograph. Experiment with different perspectives, and focus on the eyes or other key details of your subject to draw the viewer’s attention."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Focusing Challenges and Solutions"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Focusing can be particularly challenging in macro photography due to the shallow depth of field at close distances. Many photographers use manual focus to gain better control over the focal point. Techniques such as focus stacking, where multiple images at different focus points are blended in post-processing, can also be used to increase depth of field in the final image."
+                        ]
+                    )
+                ]
+            ),
+            Chapter(
+                title: "3. Practical Tips for Success",
+                content: [
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Mastering Stability"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Keeping your camera stable is essential in macro photography to avoid blurry images caused by even the slightest movements. Tripods, bean bags, or even clamps can be used to stabilize your camera. A remote shutter release or the camera’s timer can further reduce the risk of camera shake."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .header2,
+                        content: ["Creative Use of Depth of Field"]
+                    ),
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Playing with depth of field is a powerful artistic tool in macro photography. A very shallow depth of field can highlight specific details, creating a soft background that makes the subject stand out. Adjusting the aperture and experimenting with different distances can help achieve the desired effect."
+                        ]
+                    )
+                ]
+            ),
+            Chapter(
+                title: "Conclusion and Checklist",
+                content: [
+                    ChapterSection(
+                        type: .paragraph,
+                        content: [
+                            "Macro photography is a rewarding field that challenges your technical skills and creative vision. By understanding the right techniques and equipment, you can start to uncover the hidden details of the world around us."
+                        ]
+                    ),
+                    ChapterSection(
+                        type: .list,
+                        content: [
+                            "Ensure you have the appropriate macro photography gear, such as macro lenses or extension tubes.",
+                            "Practice using manual focus to overcome shallow depth of field challenges.",
+                            "Experiment with lighting setups to find what best highlights your subject.",
+                            "Use a tripod or other stabilization methods to avoid camera shake.",
+                            "Continuously experiment with composition and depth of field to enhance your macro shots."
+                        ]
+                    )
+                ]
+            )
+        ]
+    )
+    
     var body: some View {
         NavigationStack {
             GeometryReader { geometry in
@@ -204,18 +465,10 @@ struct LearnView: View {
                     ZStack {
                         ScrollView (.horizontal, showsIndicators: false) {
                             LazyHStack {
-                                Article(geometry: geometry, course: exmapleCourse)
+                                Article(geometry: geometry, course: photographyBasicsCourse)
                                 Article(geometry: geometry, course: portraitPhotographyCourse)
-                                Article(geometry: geometry, course: exmapleCourse)
-                                Article(geometry: geometry, course: exmapleCourse)
-                                Article(geometry: geometry, course: exmapleCourse)
-                                Article(geometry: geometry, course: exmapleCourse)
-                                Article(geometry: geometry, course: exmapleCourse)
-                                Article(geometry: geometry, course: exmapleCourse)
-                                Article(geometry: geometry, course: exmapleCourse)
-                                Article(geometry: geometry, course: exmapleCourse)
-                                Article(geometry: geometry, course: exmapleCourse)
-                                Article(geometry: geometry, course: exmapleCourse)
+                                Article(geometry: geometry, course: landscapePhotographyCourse)
+                                Article(geometry: geometry, course: macroPhotographyCourse)
                                     .padding(.trailing, 17)
                             }
                             .scrollTargetLayout()
